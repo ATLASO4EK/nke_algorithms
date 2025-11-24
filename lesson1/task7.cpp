@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -9,13 +10,12 @@ int main() {
     cout << "Введите длину ребра куба: ";
     cin >> a;
 
-    double face_area = a * a;
-    double surface_area = 6 * face_area;
-    double volume = a * a * a;
+    double S_face = pow(a, 2);
+    double S_surface = 6 * S_face;
+    double V = pow(a, 3);
 
-    cout << "Площадь грани: " << face_area << endl;
-    cout << "Площадь полной поверхности: " << surface_area << endl;
-    cout << "Объем: " << volume << endl;
-
+    cout << "Площадь грани: " << S_face << endl;
+    cout << "Площадь полной поверхности: " << S_surface << endl;
+    cout << "Объем: " << V << endl;
     return 0;
 }

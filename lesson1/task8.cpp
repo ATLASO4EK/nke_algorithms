@@ -1,4 +1,6 @@
+#define PI 3.14
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -6,13 +8,12 @@ int main() {
     cout << "Выполнил Кравченко Алексей 9КС-232" << endl;
     
     double R;
-    const double PI = 3.14;
     cout << "Введите радиус круга: ";
     cin >> R;
-    double circumference = 2 * PI * R;
-    double area = PI * R * R;
-    cout << "Длина окружности: " << circumference << endl;
-    cout << "Площадь круга: " << area << endl;
+    double C = 2 * PI * R;
+    double S = PI * pow(R, 2);
+    cout << "Длина окружности: " << C << endl;
+    cout << "Площадь круга: " << S << endl;
 
     return 0;
 }

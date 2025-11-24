@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -6,15 +7,16 @@ int main() {
     cout << "Выполнил Кравченко Алексей 9КС-232" << endl;
     
     double a, b;
-    cout << "Введите катеты a и b: ";
+    cout << "Введите катеты a и b: " << endl;
     cin >> a >> b;
 
     double c = sqrt(a * a + b * b);
-    double perimeter = a + b + c;
-    double area = (a * b) / 2;
+    cout << "Гипотенуза треугольника: " << c << endl;
+    double P = a + b + c;
+    double S = (a * b) / 2;
 
-    cout << "Периметр треугольника: " << perimeter << endl;
-    cout << "Площадь треугольника: " << area << endl;
+    cout << "Периметр треугольника: " << P << endl;
+    cout << "Площадь треугольника: " << S << endl;
 
     return 0;
 }

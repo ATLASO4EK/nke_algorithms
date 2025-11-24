@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -9,11 +10,11 @@ int main() {
     cout << "Введите сторону равностороннего треугольника: ";
     cin >> a;
 
-    double area = (sqrt(3) / 4) * a * a;
+    double S = (sqrt(3) / 4) * pow(a, 2);
     double r_in = a / (2 * sqrt(3));
     double r_out = a / sqrt(3);
 
-    cout << "Площадь треугольника: " << area << endl;
+    cout << "Площадь треугольника: " << S << endl;
     cout << "Радиус вписанной окружности: " << r_in << endl;
     cout << "Радиус описанной окружности: " << r_out << endl;
 
