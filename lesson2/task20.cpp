@@ -12,5 +12,8 @@ int main() {
     int product = (num / 1000) * ((num / 100) % 10) * ((num / 10) % 10) * (num % 10);
     cout << "Произведение цифр: " << product << endl;
 
+    cin.get();
+    cin.get();
+    
     return 0;
 }

@@ -12,5 +12,8 @@ int main() {
     int sum = (num / 1000) + ((num / 100) % 10) + ((num / 10) % 10) + (num % 10);
     cout << "Ñóììà öèôğ: " << sum << endl;
 
+    cin.get();
+    cin.get();
+    
     return 0;
 }

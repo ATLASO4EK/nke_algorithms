@@ -25,5 +25,8 @@ int main() {
     cout << "Периметр трапеции: " << P << endl;
     cout << "Площадь трапеции: " << S << endl;
 
+    cin.get();
+    cin.get();
+    
     return 0;
 }

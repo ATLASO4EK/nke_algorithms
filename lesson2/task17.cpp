@@ -16,5 +16,8 @@ int main() {
 
     cout << "Корни уравнения: x1 = " << x1 << ", x2 = " << x2 << endl;
 
+    cin.get();
+    cin.get();
+    
     return 0;
 }

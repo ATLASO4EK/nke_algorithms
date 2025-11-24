@@ -15,5 +15,8 @@ int main() {
     double distance = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
     cout << "Расстояние между точками: " << distance << endl;
 
+    cin.get();
+    cin.get();
+    
     return 0;
 }

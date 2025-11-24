@@ -14,5 +14,8 @@ int main() {
     double C = 2 * PI * r;
     cout << "Длина окружности: " << C << endl;
 
+    cin.get();
+    cin.get();
+
     return 0;
 }
