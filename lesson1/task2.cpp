@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -9,7 +10,7 @@ int main() {
     cout << "Введите два числа: " << endl;
     cin >> a >> b;
 
-    double avg_squares = (a * a + b * b) / 2.0;
+    double avg_squares = (pow(a, 2) + pow(b, 2)) / 2.0;
     double avg_abs = (abs(a) + abs(b)) / 2.0;
 
     cout << "Среднее арифметическое квадратов: " << avg_squares << endl;
