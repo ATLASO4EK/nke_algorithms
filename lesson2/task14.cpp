@@ -1,4 +1,6 @@
+#define PI 3.14
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -6,26 +8,22 @@ int main() {
     cout << "Выполнил Кравченко Алексей 9КС-232" << endl;
     
     double a, b, alpha;
-    cout << "Введите основания трапеции a и b (a > b): ";
-    cin >> a >> b;
-    cout << "Введите острый угол ? (в градусах): ";
+    cout << "Введите большее основание a: ";
+    cin >> a;
+    cout << "Введите меньшее основание b: ";
+    cin >> b;
+    cout << "Введите угол альфа при большем основании: ";
     cin >> alpha;
 
-    const double PI = 3.14159265358979323846;
-    double alpha_rad = alpha * PI / 180.0;
+    double x = a - b;
+    double h = x * tan(alpha);
+    double c = sqrt(pow(h, 2) + pow(x, 2));
 
-    // Высота трапеции
-    double h = (a - b) * tan(alpha_rad);
+    double P = a + b + c + h;
+    double S = (b * h) + (x * h) / 2;
 
-    // Периметр
-    double side = h / sin(alpha_rad);
-    double perimeter = a + b + side + h;
-
-    // Площадь
-    double area = ((a + b) / 2) * h;
-
-    cout << "Периметр трапеции: " << perimeter << endl;
-    cout << "Площадь трапеции: " << area << endl;
+    cout << "Периметр трапеции: " << P << endl;
+    cout << "Площадь трапеции: " << S << endl;
 
     return 0;
 }

@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+#define PI 3.14
 using namespace std;
 
 int main() {
@@ -8,9 +10,8 @@ int main() {
     double S;
     cout << "¬ведите площадь круга: ";
     cin >> S;
-    const double pi = 3.14;
-    double r = sqrt(S / pi);
-    double C = 2 * pi * r;
+    double r = sqrt(S / PI);
+    double C = 2 * PI * r;
     cout << "ƒлина окружности: " << C << endl;
 
     return 0;
