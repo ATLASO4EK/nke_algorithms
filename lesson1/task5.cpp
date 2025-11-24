@@ -19,5 +19,8 @@ int main() {
     double distance_towards = S - (V1 + V2) * T;
     cout << "Расстояние между автомобилями через " << T << " часов: " << distance_towards << " км" << endl;
 
+    cin.get();
+    cin.get();
+
     return 0;
 }

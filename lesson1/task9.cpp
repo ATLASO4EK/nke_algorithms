@@ -13,8 +13,11 @@ int main() {
     cout << "Введите внешний радиус R2: ";
     cin >> R2;
 
-    double area = PI * (pow(R2, 2) - pow(R1, 2));
-    cout << "Площадь кольца: " << area << endl;
+    double S = PI * (pow(R2, 2) - pow(R1, 2));
+    cout << "Площадь кольца: " << S << endl;
+
+    cin.get();
+    cin.get();
 
     return 0;
 }

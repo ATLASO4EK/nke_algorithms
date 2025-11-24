@@ -21,5 +21,8 @@ int main() {
     int S = S1 + S2;
     cout << "Путь, пройденный лодкой: " << S << endl;
 
+    cin.get();
+    cin.get();
+    
     return 0;
 }

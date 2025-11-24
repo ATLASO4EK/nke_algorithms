@@ -15,5 +15,8 @@ int main() {
     cout << "Длина окружности: " << C << endl;
     cout << "Площадь круга: " << S << endl;
 
+    cin.get();
+    cin.get();
+
     return 0;
 }

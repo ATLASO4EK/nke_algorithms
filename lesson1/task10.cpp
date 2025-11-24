@@ -18,5 +18,8 @@ int main() {
     cout << "Радиус вписанной окружности: " << r_in << endl;
     cout << "Радиус описанной окружности: " << r_out << endl;
 
+    cin.get();
+    cin.get();
+
     return 0;
 }

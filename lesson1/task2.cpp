@@ -16,5 +16,8 @@ int main() {
     cout << "Среднее арифметическое квадратов: " << avg_squares << endl;
     cout << "Среднее арифметическое модулей: " << avg_abs << endl;
 
+    cin.get();
+    cin.get();
+
     return 0;
 }

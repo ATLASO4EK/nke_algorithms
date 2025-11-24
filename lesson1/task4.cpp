@@ -18,5 +18,8 @@ int main() {
     double distance = S + (V1 + V2) * T;
     cout << "Расстояние между автомобилями через " << T << " часов: " << distance << endl;
 
+    cin.get();
+    cin.get();
+
     return 0;
 }

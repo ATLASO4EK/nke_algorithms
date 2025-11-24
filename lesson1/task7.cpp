@@ -17,5 +17,9 @@ int main() {
     cout << "Площадь грани: " << S_face << endl;
     cout << "Площадь полной поверхности: " << S_surface << endl;
     cout << "Объем: " << V << endl;
+
+    cin.get();
+    cin.get();
+
     return 0;
 }

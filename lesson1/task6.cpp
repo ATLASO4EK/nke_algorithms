@@ -18,5 +18,8 @@ int main() {
     cout << "Периметр треугольника: " << P << endl;
     cout << "Площадь треугольника: " << S << endl;
 
+    cin.get();
+    cin.get();
+
     return 0;
 }
