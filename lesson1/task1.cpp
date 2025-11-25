@@ -3,17 +3,17 @@ using namespace std;
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    cout << "Âûïîëíèë Êðàâ÷åíêî Àëåêñåé 9ÊÑ-232" << endl;
+    cout << "˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜˜˜ ˜˜˜˜˜˜˜ 9˜˜-232" << endl;
     
     double a, b;
 
-    cout << "Ââåäèòå 2 ÷èñëà " << endl;
+    cout << "˜˜˜˜˜˜˜ 2 ˜˜˜˜˜ " << endl;
     cin >> a >> b;
 
-    cout << "Ñóììà: " << a + b << endl;
-    cout << "Ðàçíîñòü: " << a - b << endl;
-    cout << "Ïðîèçâåäåíèå: " << a * b << endl;
-    cout << "×àñòíîå: " << a / b << endl;
+    cout << "˜˜˜˜˜: " << a + b << endl;
+    cout << "˜˜˜˜˜˜˜˜: " << a - b << endl;
+    cout << "˜˜˜˜˜˜˜˜˜˜˜˜: " << a * b << endl;
+    cout << "˜˜˜˜˜˜˜: " << a / b << endl;
 
     cin.get();
     cin.get();
