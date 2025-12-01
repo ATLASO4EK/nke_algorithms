@@ -5,6 +5,7 @@ lesson3/*.exe
 lesson3/*.ilk
 lesson3/*.obj
 lesson3/*.pdb
+lesson3/lecture/*.exe
 lesson3/tasks/*.exe
 lesson3/tasks/*.ilk
 lesson3/tasks/*.obj
