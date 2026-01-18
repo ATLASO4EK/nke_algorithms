@@ -4,38 +4,27 @@ using namespace std;
 
 int main(){
     setlocale(LC_ALL, "Russian");
-    cout << "Выполнил Кравченко Алексей 9КС-232" << endl;
-    int i, n;
-    int sum = 0;
-    cout << "Введите число" << endl;
-    cin >> n;
+    cout << "Практическая работа 5" << endl << "Выполнил Кравченко Алексей 9КС-232" << endl;
+   
+    string name;
+    cout << "Введите ваше имя: ";
+    cin >> name;
 
-    for (int i = 1; i <= n; i++){
-        sum += i;
-    }
-    cout << "The sum (for): " << sum << endl;
+    cout << "Здравствуйте, " << name << "!" << endl;
 
-    sum = 0;
-    i = 1;
-    while (i <= n) {
-        sum = sum + i;
-        i++;
-    }
-    cout << "The sum (while): " << sum << endl;
+    double w1, h1, w2, h2;
+    cout << "Введите ширину и высоту первого (большего) прямоугольника: " << endl;
+    cin >> w1 >> h1;
+    cout << "Введите ширину и высоту второго (меньшего) прямоугольника: " << endl;
+    cin >> w2 >> h2;
 
-    sum = 0;
-    i = 1;
-    if (i < n){
-        do {
-            sum = sum + i;
-            i++;
-        } while(i<=n);
-    }
-    cout << "The sum (do while): " << sum << endl;
+    double S1 = w1 * h1;
+    double S2 = w2 * h2;
+    double S = S1 - S2;
 
-    sum = (n*(n+1))/2;
-    cout << "The sum (no loop): " << sum << endl;
+    cout << "Площадь фигуры, образованной вырезанием второго прямоугольника из первого: " << S << endl;
 
+    cout << "Спасибо за использование моей программы, " << name << "!" << endl;
 
     return 0;
 }

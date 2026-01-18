@@ -10,3 +10,7 @@ lesson3/tasks/*.exe
 lesson3/tasks/*.ilk
 lesson3/tasks/*.obj
 lesson3/tasks/*.pdb
+lesson4(3)/tasks/*.exe
+lesson4(3)/tasks/*.ilk
+lesson4(3)/tasks/*.obj
+lesson4(3)/tasks/*.pdb
