@@ -1,6 +1,7 @@
 lesson1/*.exe
 lesson1/*.exe
 lesson2/*.exe
+lesson2.1/*.exe
 lesson3/*.exe
 lesson3/*.ilk
 lesson3/*.obj
@@ -14,3 +15,5 @@ lesson4(3)/tasks/*.exe
 lesson4(3)/tasks/*.ilk
 lesson4(3)/tasks/*.obj
 lesson4(3)/tasks/*.pdb
+lesson4/lecture/*.exe
+lesson5/lecture/*.exe
